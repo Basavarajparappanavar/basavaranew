@@ -15,8 +15,8 @@ public void TC_Search() {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	driver.get("https://demowebshop.tricentis.com");
-	driver.findElement(By.id("small-searchterms")).sendKeys("Books");
-	driver.findElement(By.cssSelector("input[value='Search']")).click();
+//	driver.findElement(By.id("small-searchterms")).sendKeys("Books");
+//	driver.findElement(By.cssSelector("input[value='Search']")).click();
 	driver.close();
 }
 }
